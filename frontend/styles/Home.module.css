@@ -1,0 +1,105 @@
+.container {
+  margin: 10%;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.title h1{
+  margin: 0;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.wordNum{
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(85, 177, 253);
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+
+}
+
+
+.chatBox{
+  width: 80%;
+  padding: 20 20 20;
+  height: 600px;
+  border: 2px dashed rgb(175, 175, 175);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+
+}
+
+.chatList{
+  flex : 1;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.chatBox input{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(235, 235, 235);
+  color: rgb(121, 121, 121);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.inputBox{
+  display: flex;
+  width: 100%;
+  border: none;
+  background-color: rgb(235, 235, 235);
+}
+
+.inputBox input::placeholder{
+  color: rgb(175, 175, 175);
+  font-size: 15px;
+}
+
+.inputBox input:hover{
+  border : none
+}
+
+.inputBox button{
+  border: none;
+  background-color: rgb(235, 235, 235);
+  color: rgb(175, 175, 175);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.info{
+  width: 80%;
+  color: rgb(65, 169, 201);
+  font-size: 13px;
+  font-weight: 800;
+  text-align: right;
+}
