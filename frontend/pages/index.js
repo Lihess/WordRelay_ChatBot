@@ -164,7 +164,6 @@ export default function Home({count}) {
             setIsTextNotValue(false);
             setText(e.target.value);
         }
-        setText(e.target.value);
     }
 
     // modal 창을 닫기위한 함수
